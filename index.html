@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta name="keywords" content="fotografia, fotógrafo, câmera, fotos, imagens, arte, criatividade, composição, exposição, foco, luz, sombra, cor, preto e branco, retrato, paisagem, natureza, urbano, arquit" />
+        <meta name="description" content="Website de fotografia profissional oferecendo serviços de fotografia de alta qualidade para eventos, retratos, paisagens e muito mais. Explore nosso portfólio e entre em contato para agendar uma sessão fotográfica personalizada." />
+
+        <title>Explore o mundo da fotografia conosco!</title>
+
+        <link rel="stylesheet" href="bootstrap.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="font-awesome.min.css" />
+        <link rel='stylesheet' href='boxicons.min.css'>
+        <link rel="stylesheet" href="aos.css">
+        <link rel="stylesheet" href="bootstrap-icons.css">
+        <link rel="stylesheet" href="swiper-bundle.min.css" />
+    </head>
+    <body>
+    
+    <header id="header" class="lytzmytb">
+    <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo"><a href="index.html"><i class="fa fa-bicycle"></i>FORDRJ</a></h1>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="index.html">Início</a></li>
+                <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
+                <li><a class="nav-link scrollto" href="services.html">Serviços</a></li>
+                <li class="dropdown">
+                    <a href="#"><span>Blog</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="explorando-a-beleza-das-imagens-com-a-fordrj.html">Explorando a Beleza das Imagens com a FORDRJ</a></li>
+                        <li><a href="a-cor-ideal-para-a-fordrj.html">A cor ideal para a FORDRJ</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link scrollto" href="reviews.html">Depoimentos</a></li>
+                <li><a class="nav-link scrollto" href="contact.html">Contato</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+    </div>
+
+    <script type="text/javascript">
+        /**
+        * Mobile nav toggle
+        */
+
+        const navbarToogle = document.querySelector('.mobile-nav-toggle');
+        const navbarMenu = document.querySelector('#navbar');
+
+        navbarToogle.addEventListener('click', (e) => {
+            if (navbar.classList.contains('navbar-mobile')) {
+                navbarMenu.className = 'navbar';
+            } else {
+                navbarMenu.className = 'navbar-mobile';
+            }
+
+            navbarToogle.classList.toggle('bi-list');
+            navbarToogle.classList.toggle('bi-x');
+        });
+
+        const navbarDropdown = document.querySelector('.navbar .dropdown > a');
+
+        navbarDropdown.addEventListener('click', (e) => {
+            e.preventDefault();
+            navbarDropdown.nextElementSibling.className = 'dropdown-active';
+        });
+    </script>
+</header>
+<!-- End Header -->
+
+<main>
+<section id="hero" class="hbkdjilp d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        <div class="row">
+            <div class="col-xl-6">
+                <h1>Explore o mundo da fotografia conosco!</h1>
+                <h2>Na FORDRJ, estamos apaixonados por capturar momentos especiais e contar histórias através de nossas lentes. Nossa equipe dedicada e experiente está pronta para transformar seus momentos mais importantes em memórias eternas. Seja para casamentos, ensaios, eventos corporativos ou editoriais, confie em nós para criar imagens que irão emocionar e inspirar.</h2>
+                <a href="#about" class="btn-get-started scrollto">Começar</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Hero -->
+
+<section id="vpskhoys" class="bg-light">
+    <div class="container px-4 py-5">
+        <h2 class="pb-2 text-center">Recursos</h2>
+
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 d-flex justify-center align-items-center">
+            <div class="col">
+                <img src="image140141.png" class="rounded features-img" />
+            </div>
+            <div class="col">
+                <h2>Galeries</h2>
+                <p>Explore stunning photo galleries showcasing the beauty of different landscapes, cultures, and moments captured by talented photographers.</p>
+            </div>
+        </div>
+
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 d-flex justify-center align-items-center">
+            <div class="col">
+                <h2>Photographer Profiles</h2>
+                <p>Discover and connect with professional photographers from around the world, learn about their unique styles and techniques.</p>
+            </div>
+            <div class="col">
+                <img src="image140142.png" class="rounded features-img" />
+            </div>
+        </div>
+
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 d-flex justify-center align-items-center">
+            <div class="col">
+                <img src="image140143.png" class="rounded features-img" />
+            </div>
+            <div class="col">
+                <h2>Photo Contests</h2>
+                <p>Participate in exciting photo contests, show off your skills, and compete with other photography enthusiasts for recognition and prizes.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section - Home Page -->
+<section id="services" class="services py-5 bg-light">
+    <!--  Section Title -->
+    <div class="container section-title text-center py-5" data-aos="fade-up">
+        <h2>O Que Fazemos</h2>
+    </div>
+    <!-- End Section Title -->
+
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+                    <div>
+                        <h4 class="title">Fotografia de Eventos</h4>
+                        <p class="description">Cobertura completa de eventos corporativos, casamentos, festas e outros momentos especiais, garantindo imagens de alta qualidade e profissionalismo.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+                    <div>
+                        <h4 class="title">Sessões Fotográficas Personalizadas</h4>
+                        <p class="description">Sessões personalizadas para famílias, casais, grávidas, bebês e pets, capturando momentos únicos e criando memórias inesquecíveis.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+                    <div>
+                        <h4 class="title">Fotografia de Produtos</h4>
+                        <p class="description">Realização de sessões fotográficas profissionais para destacar produtos, alimentos e itens comerciais com imagens atraentes e de alta qualidade.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+                    <div>
+                        <h4 class="title">Edição de Imagens</h4>
+                        <p class="description">Serviço de edição de imagens com retoques profissionais, correção de cores, remoção de imperfeições e ajustes para garantir resultados impressionantes.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+                    <div>
+                        <h4 class="title">Ensaios Fotográficos de Moda</h4>
+                        <p class="description">Ensaios Fotográficos de Moda</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+                    <div>
+                        <h4 class="title">Fotografia de Paisagens e Natureza</h4>
+                        <p class="description">Fotografia de Paisagens e Natureza</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+        </div>
+    </div>
+</section>
+<!-- End Services Section -->
+
+<section id="about" class="ltdytwir bg-light py-5">
+    <div class="container pt-5">
+        <h2 class="text-center py-5">Explorando a Beleza das Imagens com a FORDRJ</h2>
+        <div class="py-5">A FORDRJ é uma empresa dedicada a capturar momentos únicos e especiais através de imagens que contam histórias e emocionam. Com uma equipe de fotógrafos talentosos e apaixonados pelo que fazem, a FORDRJ tem como objetivo principal eternizar os momentos mais importantes da vida de seus clientes.Seja um casamento cheio de amor e emoção, uma sessão de fotos de família repleta de sorrisos genuínos, ou até mesmo um evento corporativo que merece ser lembrado para sempre, a FORDRJ está sempre pronta para transformar esses momentos em belas imagens que serão apreciadas por gerações.Com um olhar sensível e criativo, a FORDRJ busca sempre inovar e surpreender, garantindo que cada imagem conte uma história única e especial. Seja em cores vibrantes ou em preto e branco clássico, as fotografias da FORDRJ transmitem sentimentos e emoções de forma autêntica e cativante.Para a FORDRJ, cada imagem é mais do que apenas uma foto - é um pedaço de memória que será guardado com carinho e apreciado por muitos anos. Seja qual for a ocasião, a FORDRJ está pronta para transformar momentos em lembranças inesquecíveis através de suas belas imagens.</div>
+    </div>
+</section>
+
+<section id="team" class="qftjusoh team bg-light py-5">
+    <div class="container">
+
+    <div class="section-title text-center py-5">
+        <h2>Depoimentos</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+        <div class="member">
+            <img src="reviewphoto129771.png" alt="">
+            <h4>Jesse Cook</h4>
+            <p>
+            Adorei a experiência de aprender o idioma português com a ajuda deste site. As aulas são interativas e envolventes, e tenho notado uma melhora significativa na minha habilidade de comunicação. Recomendo a todos que queiram aprimorar seu conhecimento na língua portuguesa!
+            </p>
+        </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+        <div class="member">
+            <img src="reviewphoto129772.png" alt="">
+            <h4>Savannah Nelson</h4>
+            <p>
+            Estou muito satisfeito com o curso de português oferecido por esta plataforma. O conteúdo é bem estruturado, os exercícios são desafiadores e o suporte da equipe é excelente. Sem dúvida, uma ótima escolha para quem deseja estudar o idioma de forma eficaz.
+            </p>
+        </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+        <div class="member">
+            <img src="reviewphoto129773.png" alt="">
+            <h4>Philip Hayes</h4>
+            <p>
+            Excelente serviço de ensino de português! As aulas são dinâmicas e agradáveis, o que torna o aprendizado mais fácil e divertido. Além disso, a flexibilidade de horários me permite estudar no meu próprio ritmo. Recomendo a todos que queiram dominar o idioma!
+            </p>
+        </div>
+        </div>
+
+    </div>
+
+    </div>
+</section>
+
+
+<!-- ======= perguntas frequentes Section ======= -->
+<section id="exrnfgzy" class="faq bg-light">
+    <div class="container py-5">
+
+      <div class="section-title text-center">
+        <h2>perguntas frequentes</h2>
+      </div>
+
+      <ul class="faq-list">
+
+        <li>
+          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Como posso agendar uma sessão de fotos? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+            <p>
+                Você pode agendar uma sessão de fotos entrando em contato conosco através do formulário de contato em nosso site ou ligando para o nosso número de telefone.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Quais são os pacotes e preços disponíveis para sessões de fotos? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+            <p>
+                Temos diferentes pacotes personalizados para atender às suas necessidades. Para obter informações detalhadas sobre os preços, entre em contato conosco diretamente.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Em que localidades vocês realizam sessões de fotos? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+            <p>
+                Realizamos sessões de fotos em diversas localidades. Entre em contato conosco para verificar a disponibilidade na sua região.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Qual é o prazo de entrega das fotos após a sessão? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+            <p>
+                O prazo de entrega das fotos após a sessão varia dependendo do tipo de sessão e do volume de fotos. Geralmente, as fotos são entregues dentro de 1 a 2 semanas.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Posso solicitar edições especiais nas fotos? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+            <p>
+                Sim, você pode solicitar edições especiais nas fotos. Entre em contato conosco para discutir suas preferências de edição e personalização.
+            </p>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </section><!-- End perguntas frequentes Section -->
+
+<section id="dlydcag" class="bg-light">
+    <div id="about" class="container py-5">
+        <div class="row d-flex justify-center align-items-center">
+            <div class="col py-5 text-center">
+                <h4><span>Brazil, Sao Paulo, 888 Anne Dam</span></h4>
+                <br />
+                <h4>Telefone: + 55 907-581-9770</h4>
+                <br />
+                <h4>Correio eletrónico: <span class="email-text"></span></h4>
+                <br />
+            </div>
+            <div class="col py-5"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467695.6197226245!2d-47.21912797764879!3d-23.680534002549155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o%20Paulo%2C%20State%20of%20S%C3%A3o%20Paulo%2C%20Brazil!5e0!3m2!1sen!2sua!4v1709922718193!5m2!1sen!2sua" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact-->
+<section class="page-section bg-light zvnlsm" id="contact">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Entre em Contato Conosco</h2>
+        </div>
+        <!-- * * * * * * * * * * * * * * *-->
+        <!-- * * SB Forms Contact Form * *-->
+        <!-- * * * * * * * * * * * * * * *-->
+        <form id="contactForm" action="order.php" method="post">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <!-- Name input-->
+                        <input class="form-control" id="name" type="text" placeholder="Seu Nome *" />
+                    </div>
+                    <div class="form-group">
+                        <!-- Email address input-->
+                        <input class="form-control" id="email" type="email" placeholder="Seu Email *" />
+                    </div>
+                    <div class="form-group mb-md-0">
+                        <!-- Phone number input-->
+                        <input class="form-control" id="phone" type="tel" placeholder="Seu Telefone *" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0">
+                        <!-- Message input-->
+                        <textarea class="form-control" id="message" placeholder="Sua Mensagem *"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar Mensagem</button></div>
+        </form>
+    </div>
+</section>
+
+</main>
+<footer id="fxfdpd" class="footer mt-auto py-5 bg-dark text-white">
+     <div class="container">
+         <span>Copyright FORDRJ © 2023</span>
+         <div class="row my-5 py-2">
+             <div class="col">
+                 <p>Brazil, Sao Paulo, 888 Anne Dam</p>
+                 <p><a href="tel:55 907-581-9770">+ 55 907-581-9770</a></p>
+                 <p><span class="email-text"></p>
+             </div>
+         </div>
+         <div class="row my-2 py-5">
+             <div class="col">
+                 <h3>Informações:</h3>
+                 <a href="policy.html">Política de Privacidade</a><br />
+                 <a href="terms.html">Termos e Condições</a>
+             </div>
+             <div class="col-6">
+                 <h3>Ajuda e Conselhos:</h3>
+                 <a href="explorando-a-beleza-das-imagens-com-a-fordrj.html">Explorando a Beleza das Imagens com a FORDRJ</a><br />
+                 <a href="a-cor-ideal-para-a-fordrj.html">A cor ideal para a FORDRJ</a><br />
+             </div>
+             <div class="col">
+                 <h3>Social:</h3>
+                 <a href="https://facebook.com">Facebook</a><br />
+                 <a href="https://instagram.com">Instagram</a><br />
+                 <a href="https://twitter.com">Twitter</a>
+             </div>
+         </div>
+     </div>
+ </footer>
+
+
+
+    <script type="text/javascript" src="popper.js"></script><script> window.start.init({Palette:"palette1",Mode:"banner bottom",Time:"0", Message: 'Utilizamos cookies para melhorar o sítio e a sua experiência de utilização. Ao continuar a utilizar o sítio, o utilizador concorda com a utilização de cookies. Pode sempre desativar os cookies nas definições do seu browser.', ButtonText: 'Aceitar', LinkText: 'Saiba mais'})</script>
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="aos.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>AOS.init();</script>
+    </body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta name="keywords" content="fotografia, fotógrafo, câmera, fotos, imagens, arte, criatividade, composição, exposição, foco, luz, sombra, cor, preto e branco, retrato, paisagem, natureza, urbano, arquit" />
+        <meta name="description" content="Website de fotografia profissional oferecendo serviços de fotografia de alta qualidade para eventos, retratos, paisagens e muito mais. Explore nosso portfólio e entre em contato para agendar uma sessão fotográfica personalizada." />
+
+        <title>Explore o mundo da fotografia conosco!</title>
+
+        <link rel="stylesheet" href="bootstrap.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="font-awesome.min.css" />
+        <link rel='stylesheet' href='boxicons.min.css'>
+        <link rel="stylesheet" href="aos.css">
+        <link rel="stylesheet" href="bootstrap-icons.css">
+        <link rel="stylesheet" href="swiper-bundle.min.css" />
+    </head>
+    <body>
+    
+    <header id="header" class="quwakduj">
+    <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo"><a href="index.html"><i class="fa "></i>FORDRJ</a></h1>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="index.html">Início</a></li>
+                <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
+                <li><a class="nav-link scrollto" href="services.html">Serviços</a></li>
+                <li class="dropdown">
+                    <a href="#"><span>Blog</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="explorando-a-beleza-das-imagens-com-a-fordrj.html">Explorando a Beleza das Imagens com a FORDRJ</a></li>
+                        <li><a href="a-cor-ideal-para-a-fordrj.html">A cor ideal para a FORDRJ</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link scrollto" href="reviews.html">Depoimentos</a></li>
+                <li><a class="nav-link scrollto" href="contact.html">Contato</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+    </div>
+
+    <script type="text/javascript">
+        /**
+        * Mobile nav toggle
+        */
+
+        const navbarToogle = document.querySelector('.mobile-nav-toggle');
+        const navbarMenu = document.querySelector('#navbar');
+
+        navbarToogle.addEventListener('click', (e) => {
+            if (navbar.classList.contains('navbar-mobile')) {
+                navbarMenu.className = 'navbar';
+            } else {
+                navbarMenu.className = 'navbar-mobile';
+            }
+
+            navbarToogle.classList.toggle('bi-list');
+            navbarToogle.classList.toggle('bi-x');
+        });
+
+        const navbarDropdown = document.querySelector('.navbar .dropdown > a');
+
+        navbarDropdown.addEventListener('click', (e) => {
+            e.preventDefault();
+            navbarDropdown.nextElementSibling.className = 'dropdown-active';
+        });
+    </script>
+</header>
+<!-- End Header -->
+
+<main>
+
+
+<!-- Services Section - Home Page -->
+<section id="services" class="services py-5 bg-light">
+    <!--  Section Title -->
+    <div class="container section-title text-center py-5" data-aos="fade-up">
+        <h2>O Que Fazemos</h2>
+    </div>
+    <!-- End Section Title -->
+
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+                    <div>
+                        <h4 class="title">Fotografia de Eventos</h4>
+                        <p class="description">Cobertura completa de eventos corporativos, casamentos, festas e outros momentos especiais, garantindo imagens de alta qualidade e profissionalismo.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+                    <div>
+                        <h4 class="title">Sessões Fotográficas Personalizadas</h4>
+                        <p class="description">Sessões personalizadas para famílias, casais, grávidas, bebês e pets, capturando momentos únicos e criando memórias inesquecíveis.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+                    <div>
+                        <h4 class="title">Fotografia de Produtos</h4>
+                        <p class="description">Realização de sessões fotográficas profissionais para destacar produtos, alimentos e itens comerciais com imagens atraentes e de alta qualidade.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+                    <div>
+                        <h4 class="title">Edição de Imagens</h4>
+                        <p class="description">Serviço de edição de imagens com retoques profissionais, correção de cores, remoção de imperfeições e ajustes para garantir resultados impressionantes.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+                    <div>
+                        <h4 class="title">Ensaios Fotográficos de Moda</h4>
+                        <p class="description">Ensaios Fotográficos de Moda</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+                    <div>
+                        <h4 class="title">Fotografia de Paisagens e Natureza</h4>
+                        <p class="description">Fotografia de Paisagens e Natureza</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service Item -->
+        </div>
+    </div>
+</section>
+<!-- End Services Section -->
+
+
+
+
+
+
+
+</main>
+<footer id="wgqtfsf" class="footer mt-auto py-5 bg-dark text-white">
+     <div class="container">
+         <span>Copyright FORDRJ © 2023</span>
+         <div class="row my-5 py-2">
+             <div class="col">
+                 <p>Brazil, Sao Paulo, 888 Anne Dam</p>
+                 <p><a href="tel:55 907-581-9770">+ 55 907-581-9770</a></p>
+                 <p><span class="email-text"></p>
+             </div>
+         </div>
+         <div class="row my-2 py-5">
+             <div class="col">
+                 <h3>Informações:</h3>
+                 <a href="policy.html">Política de Privacidade</a><br />
+                 <a href="terms.html">Termos e Condições</a>
+             </div>
+             <div class="col-6">
+                 <h3>Ajuda e Conselhos:</h3>
+                 <a href="explorando-a-beleza-das-imagens-com-a-fordrj.html">Explorando a Beleza das Imagens com a FORDRJ</a><br />
+                 <a href="a-cor-ideal-para-a-fordrj.html">A cor ideal para a FORDRJ</a><br />
+             </div>
+             <div class="col">
+                 <h3>Social:</h3>
+                 <a href="https://facebook.com">Facebook</a><br />
+                 <a href="https://instagram.com">Instagram</a><br />
+                 <a href="https://twitter.com">Twitter</a>
+             </div>
+         </div>
+     </div>
+ </footer>
+
+
+
+    <script type="text/javascript" src="popper.js"></script><script> window.start.init({Palette:"palette1",Mode:"banner bottom",Time:"0", Message: 'Utilizamos cookies para melhorar o sítio e a sua experiência de utilização. Ao continuar a utilizar o sítio, o utilizador concorda com a utilização de cookies. Pode sempre desativar os cookies nas definições do seu browser.', ButtonText: 'Aceitar', LinkText: 'Saiba mais'})</script>
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="aos.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>AOS.init();</script>
+    </body>
+</html>
